@@ -1,8 +1,26 @@
 aid: novel-effect
 name: Novel Effect
-description: Novel Effect is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Novel Effect is a Techstars-backed interactive read-aloud technology company whose
+  voice-recognition platform listens as a person reads a children's picture book aloud and
+  plays perfectly synchronized music, sound effects, and character voices in response,
+  turning any book into an immersive shared experience. Delivered through iOS, Android, and
+  web apps, Novel Effect is used by families, teachers, and libraries to make reading aloud
+  more engaging for young children. Novel Effect is a consumer and education (EdTech)
+  product and does not currently publish a public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/novel-effect/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://noveleffect.com/wp-content/uploads/2021/02/Full-Logo_Rectangle_TransparentBG-1.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Reading
+- Education
+- EdTech
+- Voice Recognition
+- Storytelling
+- Children
+- Audio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/novel-effect-domain-security.yml
 - type: Website
   url: https://noveleffect.com/
+- type: Blog
+  url: https://noveleffect.com/blog/
+- type: Support
+  url: https://noveleffect.com/faq/
+- type: TermsOfService
+  url: https://noveleffect.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://noveleffect.com/privacy-policy
+- type: SignUp
+  url: https://links.noveleffect.com/download
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
